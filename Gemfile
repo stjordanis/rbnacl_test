@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "rbnacl"
+gem "rbnacl", git: "https://github.com/ankane/rbnacl.git", branch: "windows"

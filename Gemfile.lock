@@ -1,15 +1,21 @@
+GIT
+  remote: https://github.com/ankane/rbnacl.git
+  revision: 77799442fe4e6afa766be3f0420232d6fbf3e2b7
+  branch: windows
+  specs:
+    rbnacl (7.0.0)
+      ffi
+
 GEM
   remote: https://rubygems.org/
   specs:
     ffi (1.11.1)
-    rbnacl (7.0.0)
-      ffi
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rbnacl
+  rbnacl!
 
 BUNDLED WITH
    2.0.2
