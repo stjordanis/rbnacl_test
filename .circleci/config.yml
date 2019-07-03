@@ -30,3 +30,4 @@ jobs:
             sudo apt-get install -y libsodium18
 
       - run: bundle exec ruby app.rb
+
